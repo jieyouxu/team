@@ -10,6 +10,7 @@ compiler = "maintain"
 content = "maintain"
 crates-io = "maintain"
 docs-rs = "maintain"
+edition = "maintain"
 infra = "maintain"
 internal-sites = "maintain"
 lang = "maintain"
@@ -18,12 +19,11 @@ leadership-council = "maintain"
 libs = "maintain"
 libs-api = "maintain"
 mods-venue = "maintain"
-edition = "maintain"
 release = "maintain"
+rustc-dev-guide = "maintain"
 rustdoc = "maintain"
 triagebot = "maintain"
 types = "maintain"
-rustc-dev-guide = "maintain"
 
 [[rulesets]]
 pattern = "master"
@@ -31,4 +31,3 @@ ci-checks = ["test"]
 
 [environments.github-pages]
 branches = ["master"]
-
